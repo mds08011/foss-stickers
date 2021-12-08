@@ -6,19 +6,39 @@
 	<title>FOSS Stickers</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes">
-	<link rel="styleSheet" href="niui.min.css" type="text/css" media="screen">
-	<script src="niui-preload.min.js"></script>
-	<script src="niui.min.js" type="module" defer></script>
-
+	<link rel="stylesheet" href="/src-niui/niui.min.css" type="text/css" media="screen">
+	<script src="/src-niui/niui-preload.min.js"></script>
+	<script src="/src-niui/niui.min.js" type="module" defer></script>
 	<script defer data-domain="foss-stickers.com" src="https://plausible.io/js/plausible.js"></script>
 
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Control the behavior of search engine crawling and indexing -->
+	<meta name="robots" content="index,follow"><!-- All Search Engines, else "noindex, nofollow"-->
+	<meta name="googlebot" content="index,follow"><!-- Google Specific, else "noindex, nofollow" -->
+	<meta name="google" content="nositelinkssearchbox"><!-- Tells Google not to show the sitelinks search box -->
+
+	<!-- Geo tags -->
+	<meta name="ICBM" content="32.7152752,-117.1572166">
+	<meta name="geo.position" content="32.7152752,-117.1572166"><!-- Downtown San Diego -->
+	<meta name="geo.region" content="US-CA">
+	<!-- Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
+	<meta name="geo.placename" content="San Diego, CA"><!-- eg. content="New York City" -->
+
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 </head>
 
 <body class="n-contain n-type">
 
 	<!-- Header and Banner - Start -->
 
-	<div class=n-header-banner>
+	<!-- <div class=n-header-banner>
 
 		<header class="n-header">
 
@@ -30,8 +50,34 @@
 
 			Banner
 
-		</div>
+		</div> -->
 
+	</div>
+	<div class="n-row">
+		<div class="_1/1">
+			<div>
+				<nav class="n-nav n-nav__drop">
+					<ul>
+						<li>
+							<input type="checkbox">
+							<ul>
+								<li>
+									<input type="checkbox">
+									<ul>
+										<li>
+											<a href="asd">First item's second level item 1 third level item 1</a>
+										</li>
+									</ul>
+									<a>First item's second level item 1</a>
+								</li>
+							</ul>
+							<a>First item</a>
+						</li>
+					</ul>
+				</nav>
+
+			</div>
+		</div>
 	</div>
 
 	<!-- Header and Banner - End -->
